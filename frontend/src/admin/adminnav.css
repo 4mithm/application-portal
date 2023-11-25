@@ -1,0 +1,236 @@
+.adminlink {
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+	display: inline;
+
+	text-decoration: none;
+}
+.adminnav {
+	background-color: black;
+	height: 30px;
+}
+.adminnav .adminlink{
+	margin-right: 25px;
+}
+.adminAppli1 {
+	/* Created with https://www.css-gradient.com */
+	background: #ce1ce2;
+	background: -webkit-linear-gradient(top left, #ce1ce2, #438ced);
+	background: -moz-linear-gradient(top left, #ce1ce2, #438ced);
+	background: linear-gradient(to bottom right, #ce1ce2, #438ced);
+	min-height: 100vh;
+	height: 100%;
+}
+.manreg1{
+	/* Created with https://www.css-gradient.com */
+	background: #679ef3;
+	background: -webkit-linear-gradient(top left, #679ef3, #38ee00);
+	background: -moz-linear-gradient(top left, #679ef3, #38ee00);
+	background: linear-gradient(to bottom right, #679ef3, #38ee00);
+	min-height: 100vh;
+	height: 100%;
+	margin:0;
+}
+.adminhome {
+	/* Created with https://www.css-gradient.com */
+	/* background: #79ecb8;
+	background: -webkit-linear-gradient(top left, #79ecb8, #29886b);
+	background: -moz-linear-gradient(top left, #79ecb8, #29886b);
+	background: linear-gradient(to bottom right, #79ecb8, #29886b);
+	min-height: 100vh; */
+	height: 100%;
+}
+.notify{
+	/* Created with https://www.css-gradient.com */
+/* background: #651DBC;
+background: -webkit-linear-gradient(top left, #651DBC, #45512F);
+background: -moz-linear-gradient(top left, #651DBC, #45512F);
+background: linear-gradient(to bottom right, #651DBC, #45512F); */
+
+display: flex;
+min-height: 100vh;
+	height: 100%;
+}
+.feedbacks{
+	/* Created with https://www.css-gradient.com */
+/* background: #16F1E8;
+background: -webkit-linear-gradient(top left, #16F1E8, #3937F2);
+background: -moz-linear-gradient(top left, #16F1E8, #3937F2);
+background: linear-gradient(to bottom right, #16F1E8, #3937F2); */
+min-height: 100vh;
+	height: 100%;
+
+}
+.course{
+	/* Created with https://www.css-gradient.com */
+
+min-height: 100vh;
+	height: 100%;
+}
+.adminlogout {
+	font-size: large;
+	float: right;
+}
+.delbutton {
+	font-size: 20px;
+	background: 0;
+	border: 0;
+	color: red;
+	cursor: pointer;
+}
+.acceptbutton {
+	font-size: 20px;
+	background: 0;
+	border: 0;
+	color: green;
+	cursor: pointer;
+}
+.rejectbutton {
+	font-size: 20px;
+	background: 0;
+	border: 0;
+	color: red;
+	cursor: pointer;
+}
+.admintable {
+	border-collapse: collapse;
+
+	font-size: 20px;
+	/* box-shadow: 20px 20px 40px; */
+	min-width:70%;
+	
+}
+
+t.admintable thead tr {
+	font-size: 25px;
+	background-color: rgb(2, 186, 149, 0.6);
+	color: white;
+	text-align: left;
+	font-weight: bold;
+}
+.admintable th,
+.admintable td {
+	padding-left: 40px;
+	padding-top: 20px;
+}
+.admintable tbody tr {
+	border-bottom: 1px solid rgb(161, 160, 160);
+}
+.admintable tbody tr:nth-of-type(even) {
+	background-color: rgba(97, 96, 96, 0.3);
+}
+.admintable tbody tr:last-of-type {
+	border-bottom: 4px solid white;
+}
+.loading {
+	font-family: "Poppins";
+	font-size: 60px;
+}
+.adminAppli {
+	height: 100%;
+	min-height: 100vh;
+	font-family: "Poppins";
+}
+.loaderoverlay {
+	position: absolute;
+	z-index: 10;
+	height: 100vh;
+	width: 100%;
+	background-color: black;
+	opacity: 0.2;
+	display: flex;
+	justify-content: center;
+	top:0;
+	align-items: center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.viewmore {
+	background: 0;
+	border: 0;
+	font-size: medium;
+	color: blue;
+	cursor: pointer;
+}
+/* listbox css */
+.dropbtn {
+	background: 0;
+	color: white;
+	font-size: 20px;
+	
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #626262;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+/* list box css */
+.notify {
+	justify-content: center;
+}
+
+.viewnotice{
+	/* Created with https://www.css-gradient.com */
+background: #6EA1F8;
+background: -webkit-linear-gradient(top left, #6EA1F8, #2A4B54);
+background: -moz-linear-gradient(top left, #6EA1F8, #2A4B54);
+background: linear-gradient(to bottom right, #6EA1F8, #2A4B54);
+ min-height: 100vh;
+height: 100%;
+}
+.nodata{
+	margin:0;
+}
+.modalbutton{
+	height: 30px;
+}
+.modaltable tr td{
+	padding:10px;
+}
+.modalbody{
+	display:flex;
+}
+.singlefeedback{
+	font-size:20px;
+}
+.radiotable tbody tr td{
+	font-size: 20px;
+	font-family: "Poppins";
+}
+.radiotable tbody tr td input[type='radio']{
+	transform: scale(2);
+}
+.flexclass{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	
+}
+

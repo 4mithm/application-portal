@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+.swal-modal{
+  max-width: 400px;
+  max-height: 350px;
+ 
+}
+.swal-title{
+  font-size: 15px;
+  font-family: 'Poppins';
+}
